@@ -42,5 +42,8 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Andes is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.nasdaqprivatemarket.com/
+Andes (Andes Ag, Inc.) is a climate-technology and agricultural-biotechnology company founded in 2018 and headquartered in Alameda, California. Andes applies beneficial soil microorganisms alongside seed in commodity row crops, accelerating the conversion of atmospheric CO2 into stable soil inorganic carbon, and sells the resulting durable carbon dioxide removal as verified credits.
+
+Andes publishes no public API, developer portal, SDK, or machine-readable specification. See `x-coverage` in `apis.yml` for the probed evidence.
+
+- https://www.andes.bio/

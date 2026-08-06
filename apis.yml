@@ -1,17 +1,36 @@
 aid: andes
 name: Andes
-description: 'Andes is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Andes (Andes Ag, Inc.) is a climate-technology and agricultural-biotechnology
+  company founded in 2018 and headquartered in Alameda, California. Andes engineers
+  and selects beneficial soil microorganisms that are applied alongside seed in commodity
+  row-crop production — corn, soybean, wheat and canola — where they accelerate the
+  natural conversion of atmospheric carbon dioxide into stable soil inorganic carbon
+  (carbonate minerals), a process the company calls Microbial Carbon Mineralization.
+  Andes sells the resulting durable carbon dioxide removal as verified credits to corporate
+  buyers and Scope 3 programs, and pays participating growers through the Andes Carbon
+  Program. The company published the first Microbial Carbon Mineralization methodology,
+  developed with EcoEngineers under ISO 14064, and has run field trials with Bayer,
+  Cargill, Corteva, Nutrien and Wilbur-Ellis. Andes has raised roughly $38M, including
+  a Series A co-led by Leaps by Bayer and Cavallo Ventures, and its shares trade on
+  private secondary venues including EquityZen and Nasdaq Private Market. Andes publishes
+  no public API, developer portal, SDK or machine-readable specification.'
 url: https://raw.githubusercontent.com/api-evangelist/andes/refs/heads/main/apis.yml
+image: http://static1.squarespace.com/static/57a7b2f8f5e231cfd157e7fc/t/631ad6673365050a71e5ec8a/1662703207431/Logo+Andes+White.png?format=1500w
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
 specificationVersion: '0.20'
 created: '2026-08-06'
 modified: '2026-08-06'
 tags:
 - Company
+- Climate
+- Carbon Removal
+- Agriculture
+- Agriculture Technology
+- Biotechnology
+- Sustainability
+- Carbon Credits
+- Soil
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -20,4 +39,42 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://www.andes.bio/
+- type: About
+  url: https://www.andes.bio/about
+- type: Blog
+  url: https://www.andes.bio/news-and-press
+- type: BlogRSS
+  url: https://www.andes.bio/news?format=rss
+- type: Support
+  url: https://www.andes.bio/contact-general
+- type: PrivacyPolicy
+  url: https://www.andes.bio/privacy-policy
+- type: Careers
+  url: https://www.andes.bio/careers
+- type: DomainSecurity
+  url: security/andes-domain-security.yml
+x-enrichment:
+  date: '2026-08-06'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: Andes sells soil microbes and the durable carbon-removal credits they generate,
+    not software; its entire public surface is a Squarespace marketing site and no
+    api., developer., docs., app. or platform.andes.bio hostname resolves in DNS at
+    all.
+  evidence:
+  - url: https://www.andes.bio/
+    status: 200
+  - url: https://www.andes.bio/openapi.json
+    status: 404
+  - url: https://www.andes.bio/llms.txt
+    status: 404
+  - url: https://www.andes.bio/.well-known/agent-card.json
+    status: 404
+  - url: https://www.andes.bio/.well-known/security.txt
+    status: 404
+  checked: '2026-08-06'
