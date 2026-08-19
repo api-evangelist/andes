@@ -18,7 +18,7 @@ url: https://raw.githubusercontent.com/api-evangelist/andes/refs/heads/main/apis
 image: http://static1.squarespace.com/static/57a7b2f8f5e231cfd157e7fc/t/631ad6673365050a71e5ec8a/1662703207431/Logo+Andes+White.png?format=1500w
 x-type: company
 x-source: harvest:secondary-market
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-08-06'
 modified: '2026-08-06'
 tags:
